@@ -3,3 +3,4 @@
 
 bool normal();
 bool duo();
+bool puzzle();
