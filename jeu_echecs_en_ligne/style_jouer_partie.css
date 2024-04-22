@@ -1,0 +1,14 @@
+table {
+    border-collapse: collapse;
+    width: 320px; /* Largeur totale du tableau */
+    height: 320px; /* Hauteur totale du tableau */
+}
+
+td {
+    width: 40px; /* Largeur de chaque case */
+    height: 40px; /* Hauteur de chaque case */
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+

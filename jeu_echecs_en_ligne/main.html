@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion/Création de compte/Changement de mot de passe</title>
+    <link rel="stylesheet" href="style_main.css">
+</head>
+<body>
+    <h1>Connexion</h1>
+    <form action="login.php" method="post">
+        <label for="email">Addresse mail :</label>
+        <input type="text" id="email" name="email" required><br>
+        <label for="password">Mot de passe :</label>
+        <input type="password" id="password" name="password" required><br>
+        <input type="submit" value="Se connecter">
+    </form>
+    
+    <h1>Création de compte</h1>
+    <form action="register.php" method="post">
+        <label for="new_username">Nouveau nom d'utilisateur (vous pouvez mettre votre email) :</label>
+        <input type="text" id="new_username" name="new_username" required><br>
+        <label for="new_password">Nouveau mot de passe :</label>
+        <input type="password" id="new_password" name="new_password" required><br>
+        <label for="mail">Nouvel email :</label>
+        <input type="text" id="mail" name="mail" required><br>
+        <input type="submit" value="Créer un compte">
+    </form>
+
+    <h1>Changement de mot de passe</h1>
+    <form action="change_password.php" method="post">
+
+        <label for="email">Email :</label>
+        <input type="text" id="email" name="email" required><br>
+
+        <label for="password">Mot de passe :</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <label for="new_password">Nouveau mot de passe :</label>
+        <input type="password" id="new_password" name="new_password" required><br>
+
+        <input type="submit" value="envoyer">
+    </form>
+</body>
+</html>
