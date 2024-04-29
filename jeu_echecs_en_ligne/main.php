@@ -41,14 +41,16 @@
 
     echo '<tr><th>Nom adversaire</th><th>Scors adversaire</th><th>Votre score</th><th>Temps restant adversaire</th><th>Votre temps restant</th></tr>';
 
-    // traitement du résultats (si le joueur n'a aucune partie en cours, le boucle while n'est pas executée) 
+    // traitement du résultats de la requette qui retourne les parties en cours (si le joueur n'a aucune partie en cours, le boucle while n'est pas executée) 
 
     while ($row = $result->fetch()) 
     {
-        // crée une nouvelle ligne
+        // crée une nouvelle ligne du tableau html sur la page
         echo '<tr>';
 
-        // déterminer qui est l'adversaire
+        // déterminer qui est l'adversaire :
+
+        // initialisation des variables avec des baleurs invalides
         $adversaire = -1;
         $score_adversaire = -1;
         $score_joueur = -1;
@@ -73,7 +75,7 @@
         }
 
         // récupération du nom de l'adversaire
-        $sql = "SELECT nom FROM Clients WHERE id_client = $adversaire";
+        $sql = "SELECT nom FROM Clients WHERE id_client = '$adversaire'";
         $nom_adversaire = $conn->query($sql)->fetch();
 
         // affichage de chaque cellule de chaque colonne
