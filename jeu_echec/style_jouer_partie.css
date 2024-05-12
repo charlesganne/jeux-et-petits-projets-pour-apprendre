@@ -1,0 +1,117 @@
+/* Style pour la section de couleur du joueur */
+#couleur_du_joueur {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+
+table {
+    border: medium solid #000000;
+    width: 50%;
+}
+td, th {
+    border: thin solid #6495ed;
+    width: 50px;
+height: 50px;
+text-align:center;
+
+}
+
+table {
+margin-left:auto;
+margin-right:auto;
+
+}
+
+#echiquier td {
+    font-size: 50px; /* Taille de police plus grande */
+}
+
+
+/* Style pour le formulaire de sélection de pièce à déplacer */
+#formulaire_de_demande_de_piece_a_deplacer {
+    background-color: #DDD0C8; /* Fond rouge vif */
+    padding: 20px; /* Espacement intérieur */
+    border-radius: 10px; /* Coins arrondis */
+}
+
+#formulaire_de_demande_de_piece_a_deplacer h2 {
+    color: #fff; /* Texte blanc */
+    font-size: 24px; /* Taille de police plus grande */
+    margin-bottom: 20px; /* Marge inférieure */
+}
+
+#formulaire_de_demande_de_piece_a_deplacer label {
+    color: #fff; /* Texte blanc */
+    font-size: 18px; /* Taille de police */
+}
+
+#formulaire_de_demande_de_piece_a_deplacer select {
+    font-size: 16px; /* Taille de police */
+    padding: 8px; /* Espacement intérieur */
+    margin-bottom: 10px; /* Marge inférieure */
+    border-radius: 5px; /* Coins arrondis */
+    border: none; /* Pas de bordure */
+}
+
+#formulaire_de_demande_de_piece_a_deplacer input[type="submit"] {
+    background-color: #00ABE4; /* Bouton vert */
+    color: white; /* Texte blanc */
+    padding: 10px 20px; /* Espacement intérieur */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur pointeur */
+    font-size: 18px; /* Taille de police */
+}
+
+#formulaire_de_demande_de_piece_a_deplacer input[type="submit"]:hover {
+    background-color: #00ABE4; /* Légère variation de couleur au survol */
+}
+
+
+
+/* Style fou furieux pour les formulaires */
+form {
+    background-color: #DDD0C8; /* Fond rouge vif */
+    padding: 20px; /* Espacement intérieur */
+    border-radius: 10px; /* Coins arrondis */
+    margin-bottom: 20px; /* Marge inférieure */
+}
+
+form h2 {
+    color: #fff; /* Texte blanc */
+    font-size: 24px; /* Taille de police plus grande */
+    margin-bottom: 20px; /* Marge inférieure */
+}
+
+form label {
+    color: #fff; /* Texte blanc */
+    font-size: 18px; /* Taille de police */
+}
+
+form select {
+    font-size: 16px; /* Taille de police */
+    padding: 8px; /* Espacement intérieur */
+    margin-bottom: 10px; /* Marge inférieure */
+    border-radius: 5px; /* Coins arrondis */
+    border: none; /* Pas de bordure */
+}
+
+form input[type="submit"] {
+    background-color: #00ABE4; /* Bouton vert */
+    color: white; /* Texte blanc */
+    padding: 10px 20px; /* Espacement intérieur */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Curseur pointeur */
+    font-size: 18px; /* Taille de police */
+    margin-top: 10px; /* Marge supérieure */
+}
+
+form input[type="submit"]:hover {
+    background-color: #00ABE4; /* Légère variation de couleur au survol */
+}
